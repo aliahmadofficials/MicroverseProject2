@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------------------BELOW CODING DONE BY DAIZY---------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0px;
+}
+
+/*-----------------------------------HEADER---------------------------------------*/
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #eee;
+    position: fixed;
+    top: 0px; 
+    min-height: 80px;
+}
+
+#header-img{
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+img{
+    width: 100%;
+}
+
+#nav-bar{
+	box-sizing: border-box;
+	width: 70%;
+	padding: 0px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#nav-bar > ul{
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li{
+	display: inline-block;
+	
+}
+
+li a{
+	font-family: Poppins;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+
+/*-----------------------------------FORM SECTION---------------------------------------*/
+
+
+#formsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  padding: 15%;
+}
+
+#formsection > h2 {
+  font: normal 600 35px Poppins;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+#formsection input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+#formsection input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: blue;
+  color: white;
+}
+
+#formsection input[type='submit']:hover {
+  background-color: red;
+  transition: background-color 1s;
+}
+
+
+/*-----------------------------------ICON SECTION---------------------------------------*/
+
+
+
+#iconsection{
+    width: 100%;
+    padding: 0 5% 5% 5%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features{
+    width: 100%;
+    margin: 2%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    width: 20%;
+    text-align: center;
+}
+
+.icon img{
+    width: 30%;
+}
+
+.iconcontent{
+    width: 80%;
+}
+
+.iconcontent h2{
+    font: normal 500 25px Poppins;
+    
+}
+
+.iconcontent p{
+    font: normal 300 17px Poppins;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------BELOW CODING DONE BY ALI AHMAD---------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-----------------------------------VIDEO SECTION---------------------------------------*/
+
+#HowItWorks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#HowItWorks iframe{
+    max-width: 700px;
+}
+
+/*-----------------------------------PRICING SECTION---------------------------------------*/
+
+
+#pricing{
+    width: 100%;
+    padding: 5%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.table{
+    width: 33%;
+    margin: 2%;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+.heading h2{
+    background: #DDDDDD;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.content p{
+    text-transform: capitalize;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.content .btn{
+    background: yellow;
+    border: 0px;
+    padding: 17px 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.content .btn:hover{
+    background: red;
+    color: white;
+}
+
+
+/*-----------------------------------FOOTER SECTION---------------------------------------*/
+
+
+#footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0% 6%;
+    text-align: right;
+}
+
+.innersection{
+    background: #ddd;
+    width: 100%;
+    padding: 05px 15px
+}
+
+
+#footer-nav ul{
+  list-style-type: none;
+}
+
+li{
+	display: inline-block;
+    
+    padding: 05px 15px;
+	
+}
+
+li a{
+	font-family: Poppins;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.innersection p{
+    padding: 05px 15px;
+}
